@@ -15,7 +15,12 @@ Language: English
 ### Instruction
 - Clone this repo,
 - In CMD/Terminal open this repo ```cd Dart-Web-App```
-- Run the app ```webdev serve``` (_for more information/error visit [Dart Docs](https://dart.dev/web/get-started#tools)_)
+- Run the app ```webdev serve``` _(for more information/error visit [Dart Docs](https://dart.dev/web/get-started#tools))_
+
+> IMPORTANT\
+> if you want to run ```webdev serve``` on a localhost port that is different from the default port during development,\
+> use ```webdev serve web:[custom-port]``` _(ex: webdev serve web:8081)_\
+> Solved Issue: [https://github.com/dart-lang/webdev/issues/198](https://github.com/dart-lang/webdev/issues/198)
 
 <br>
 
