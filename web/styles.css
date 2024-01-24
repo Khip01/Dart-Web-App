@@ -13,10 +13,16 @@ html, body {
   text-align: left;
 }
 
+#counterValue {
+  font-size: 16rem;
+}
+
 .counter-container{
+  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .button-section {
@@ -25,4 +31,15 @@ html, body {
   flex-direction: row;
   justify-content: space-around;
   margin: 1rem 0 1rem 0;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4.5rem;            /* Footer height */
+}
+
+.footer-container {
+  margin: 0 1rem 0 1rem;
 }
