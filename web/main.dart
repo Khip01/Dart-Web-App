@@ -26,6 +26,13 @@ void main() {
   querySelector("#btnIn")?.onClick.listen((event) {
     counter++;
     querySelector("#counterValue")?.text = counter.toString();
+    if (counter >= 60) {
+      querySelector('#output')?.text =
+          'Your Dart app is running. 😑Bro, enough. Go touch the grass! ';
+    } else if (counter >= 40) {
+      querySelector('#output')?.text =
+          'Your Dart app is running. 🤨Bro, you\'ve pressed this button $counter times. Don\'t you have anything else to do?';
+    }
   });
 
   querySelector("#btnDec")?.onClick.listen((event) {
@@ -33,7 +40,14 @@ void main() {
       counter--;
       querySelector("#counterValue")?.text = counter.toString();
     }
+    if (counter < 40) {
+      querySelector('#output')?.text = 'Your Dart app is running.';
+    } else if (counter >= 40){
+      querySelector('#output')?.text ='Your Dart app is running. 😐Okay, you reduced the number, now what?';
+    }
   });
+
+  querySelector("#footerValue")?.text = "Pretty exciting huh?😎😏 ~khip01";
 
   // querySelector('#output')?.children.addAll(thingsTodo().map(newLI));
 }
