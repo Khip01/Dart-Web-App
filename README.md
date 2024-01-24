@@ -26,7 +26,7 @@ Language: English
 
 ## Live Demo
 Curious to see the simple web results directly?\
-Go to my github pages [quickstart - my webapp deployment ex](https://khip01.github.io/Dart-Web-App/)
+Go to my github pages <a href="https://khip01.github.io/Dart-Web-App/" target="_blank">quickstart - my webapp deployment ex</a>
 
 <br>
 
